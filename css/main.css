@@ -1,1 +1,14 @@
+@import './settings/colors.css';
+@import './settings/gaps.css';
+@import './settings/fonts.css';
+
 @import './reset.css';
+
+@import './elements/base.css';
+
+@import './components/banner.css';
+@import './components/price.css';
+@import './components/footer.css';
+
+
+@import './containers/container.css';
