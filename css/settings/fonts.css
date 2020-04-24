@@ -1,20 +1,10 @@
 @font-face {
 	font-family: 'KarlaBold';
-	src: url("../../fonts/Karla-Bold.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'KarlaBoldItalic';
-	src: url("../../fonts/Karla-BoldItalic.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'KarlaItalic';
-	src: url("../../fonts/Karla-Italic.ttf");
+	src: url("../../fonts/Karla/Karla-Bold.ttf");
 	font-size: 1em;
 }
 @font-face {
 	font-family: 'Karla';
-	src: url("../../fonts/Karla-Regular.ttf");
+	src: url("../../fonts/Karla/Karla-Regular.ttf");
 	font-size: 1em;
 }
