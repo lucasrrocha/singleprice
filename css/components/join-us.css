@@ -1,18 +1,18 @@
 .title {
     color: var(--cyan);
-    font-size: var(--fsz-big);
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
 .join-us .subtitle {
     color: var(--bright-yellow);
-    font-size: var(--fsz-medium);
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
 .content {
     color: var(--grayish-blue);
     line-height: 20px;
-    font-size: var(--fsz-small);
+    font-size: 14px;
     padding-right: 90px;
 }
