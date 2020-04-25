@@ -9,14 +9,14 @@ body {
 }
 
 ._container {
-    padding: 40px;
+    padding: 35px;
 }
 
 .banner {
     background-color: #FFF; 
     margin-top: 70px;
     border-radius: 6px;
-    box-shadow: 0 0 1em var(--grayish-blue);
+    box-shadow: 0 0 1em rgb(189, 187, 187);
 }
 
 .subtitle {

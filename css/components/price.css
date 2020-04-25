@@ -1,8 +1,7 @@
 .price {
     background-color: var(--cyan);
     color: #FFF;
-    width: 100%;
-    border-radius: 0 0 0 4px;   
+    width: 100%; 
 }
 
 .price .subtitle {
@@ -41,4 +40,10 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+@media only screen and (min-width: 695px) {
+    .price {
+        border-radius: 0 0 0 4px;   
+    }
 }

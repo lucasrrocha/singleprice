@@ -1,11 +1,17 @@
 .final {
     background-color: var(--light-cyan);
     color: #FFF;
-    border-radius: 0 0 4px 0;
+    border-radius: 0 0 4px 4px;
     width: 100%;
 }
 
 .final ul li {
     color: #B4FFFF;
     line-height: 22px;
+}
+
+@media only screen and (min-width: 695px) {
+    .final {
+        border-radius: 0 0 4px 0;   
+    }
 }
