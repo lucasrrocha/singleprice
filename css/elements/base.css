@@ -5,4 +5,32 @@ html, body {
 body {
     background-color: var(--light-gray);
     font-family: 'Karla';
+    font-size: 16px;
+}
+
+._container {
+    padding: 40px;
+}
+
+.banner {
+    background-color: #FFF; 
+    margin-top: 70px;
+    border-radius: 6px;
+    box-shadow: 0 0 1em var(--grayish-blue);
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 695px){
+    .division-banner {
+        display: flex;
+    }
+
+    .banner {
+        margin-top: 160px;
+    }
 }

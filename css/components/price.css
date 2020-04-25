@@ -1,11 +1,13 @@
 .price {
     background-color: var(--cyan);
     color: #FFF;
+    width: 100%;
+    border-radius: 0 0 0 4px;   
 }
 
 .price .subtitle {
     color: #FFF;
-    font-size: 18px;
+    font-size: var(--fsz-big);
 }
 
 .content-price {
@@ -15,27 +17,28 @@
 }
 
 .value {
-    color: #FFF;
-    font-size: 34px;
+    color: #EDFFFF;
+    font-size: var(--fsz-very-big);
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .access-price {
-    margin: 10px 0 30px 0;
+    padding: 15px 0 35px 0;
+    color: #C3FFFF;
 }
 
 .btn {
     width: 100%;
     height: 50px;
     color: #FFF; 
-    font-size: 18px;
+    font-size: var(--fsz-big);
     text-decoration: none;
     cursor: pointer;
     background-color: var(--bright-yellow);
     border-radius: 4px;
-    box-shadow: 0 0 1em #555;
+    box-shadow: 0 0 .2em var(--bright-yellow);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }

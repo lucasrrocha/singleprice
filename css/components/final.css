@@ -1,16 +1,11 @@
 .final {
     background-color: var(--light-cyan);
     color: #FFF;
-    border-radius: 0 0 4px 4px;
-}
-
-.final h2 {
-    font-size: 18px;
-    margin-bottom: 20px;
+    border-radius: 0 0 4px 0;
+    width: 100%;
 }
 
 .final ul li {
-    font-size: 14px;
-    margin-top: 5px;
     color: #B4FFFF;
+    line-height: 22px;
 }
